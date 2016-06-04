@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background: black;
+  color: #fff;
+  overflow: hidden;
+}
+
+.row {
+  display: table;
+  clear: right;
+}
+
+.cell {
+  display: table-cell;
+  width: 10px;
+  height: 10px;
+  //border-radius: 10px;
+  background: #fff;
+  &.color0 {
+    background: transparent !important;
+  }
+  &.color1 {
+  }
+  &.color2 {
+    background: red;
+  }
+  &.color3 {
+    background: red;
+    transform: scale(0.6);
+  }
+}

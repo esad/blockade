@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C75826DB1D036C990094AF43 /* app.css in Resources */ = {isa = PBXBuildFile; fileRef = C75826D81D036C990094AF43 /* app.css */; };
+		C75826DC1D036C990094AF43 /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = C75826D91D036C990094AF43 /* app.js */; };
+		C75826DD1D036C990094AF43 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C75826DA1D036C990094AF43 /* index.html */; };
+		C7AF8F381D03610000AB3AAA /* BlockadeView.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AF8F371D03610000AB3AAA /* BlockadeView.h */; };
+		C7AF8F3A1D03610000AB3AAA /* BlockadeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AF8F391D03610000AB3AAA /* BlockadeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C75826D81D036C990094AF43 /* app.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = app.css; path = ../html/build/app.css; sourceTree = "<group>"; };
+		C75826D91D036C990094AF43 /* app.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = app.js; path = ../html/build/app.js; sourceTree = "<group>"; };
+		C75826DA1D036C990094AF43 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = index.html; path = ../html/build/index.html; sourceTree = "<group>"; };
+		C7AF8F341D03610000AB3AAA /* Blockade.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Blockade.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7AF8F371D03610000AB3AAA /* BlockadeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockadeView.h; sourceTree = "<group>"; };
+		C7AF8F391D03610000AB3AAA /* BlockadeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockadeView.m; sourceTree = "<group>"; };
+		C7AF8F3B1D03610000AB3AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7AF8F301D03610000AB3AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C75826DE1D036C9D0094AF43 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				C75826D81D036C990094AF43 /* app.css */,
+				C75826D91D036C990094AF43 /* app.js */,
+				C75826DA1D036C990094AF43 /* index.html */,
+			);
+			name = HTML;
+			sourceTree = "<group>";
+		};
+		C7AF8F2A1D03610000AB3AAA = {
+			isa = PBXGroup;
+			children = (
+				C75826DE1D036C9D0094AF43 /* HTML */,
+				C7AF8F361D03610000AB3AAA /* Blockade */,
+				C7AF8F351D03610000AB3AAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7AF8F351D03610000AB3AAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7AF8F341D03610000AB3AAA /* Blockade.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7AF8F361D03610000AB3AAA /* Blockade */ = {
+			isa = PBXGroup;
+			children = (
+				C7AF8F371D03610000AB3AAA /* BlockadeView.h */,
+				C7AF8F391D03610000AB3AAA /* BlockadeView.m */,
+				C7AF8F3B1D03610000AB3AAA /* Info.plist */,
+			);
+			path = Blockade;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C7AF8F311D03610000AB3AAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7AF8F381D03610000AB3AAA /* BlockadeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C7AF8F331D03610000AB3AAA /* Blockade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7AF8F3E1D03610000AB3AAA /* Build configuration list for PBXNativeTarget "Blockade" */;
+			buildPhases = (
+				C7AF8F2F1D03610000AB3AAA /* Sources */,
+				C7AF8F301D03610000AB3AAA /* Frameworks */,
+				C7AF8F311D03610000AB3AAA /* Headers */,
+				C7AF8F321D03610000AB3AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blockade;
+			productName = Blockade;
+			productReference = C7AF8F341D03610000AB3AAA /* Blockade.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7AF8F2B1D03610000AB3AAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Esad Hajdarevic";
+				TargetAttributes = {
+					C7AF8F331D03610000AB3AAA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C7AF8F2E1D03610000AB3AAA /* Build configuration list for PBXProject "Blockade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7AF8F2A1D03610000AB3AAA;
+			productRefGroup = C7AF8F351D03610000AB3AAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7AF8F331D03610000AB3AAA /* Blockade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7AF8F321D03610000AB3AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75826DB1D036C990094AF43 /* app.css in Resources */,
+				C75826DC1D036C990094AF43 /* app.js in Resources */,
+				C75826DD1D036C990094AF43 /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7AF8F2F1D03610000AB3AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7AF8F3A1D03610000AB3AAA /* BlockadeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C7AF8F3C1D03610000AB3AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C7AF8F3D1D03610000AB3AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C7AF8F3F1D03610000AB3AAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Blockade/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = at.esse.Blockade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		C7AF8F401D03610000AB3AAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Blockade/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = at.esse.Blockade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7AF8F2E1D03610000AB3AAA /* Build configuration list for PBXProject "Blockade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7AF8F3C1D03610000AB3AAA /* Debug */,
+				C7AF8F3D1D03610000AB3AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7AF8F3E1D03610000AB3AAA /* Build configuration list for PBXNativeTarget "Blockade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7AF8F3F1D03610000AB3AAA /* Debug */,
+				C7AF8F401D03610000AB3AAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7AF8F2B1D03610000AB3AAA /* Project object */;
+}

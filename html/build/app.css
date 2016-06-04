@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  background: black;
+  color: #fff;
+  overflow: hidden; }
+
+.row {
+  display: table;
+  clear: right; }
+
+.cell {
+  display: table-cell;
+  width: 10px;
+  height: 10px;
+  background: #fff; }
+  .cell.color0 {
+    background: transparent !important; }
+  .cell.color2 {
+    background: red; }
+  .cell.color3 {
+    background: red;
+    transform: scale(0.6); }
+
+/*# sourceMappingURL=app.css.map */
