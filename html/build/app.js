@@ -8621,17 +8621,12 @@ var _esad$blockade$App$update = F2(
 	function (msg, model) {
 		var _p0 = msg;
 		if (_p0.ctor === 'Init') {
-			var _p2 = _p0._0;
-			var _p1 = A2(
-				_elm_lang$core$Debug$log,
-				'Initialized with boring=',
-				_esad$blockade$Turmite$boring(_p2));
 			return {
 				ctor: '_Tuple2',
 				_0: _elm_lang$core$Native_Utils.update(
 					model,
 					{
-						turmite: _elm_lang$core$Maybe$Just(_p2)
+						turmite: _elm_lang$core$Maybe$Just(_p0._0)
 					}),
 				_1: _elm_lang$core$Platform_Cmd$none
 			};
