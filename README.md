@@ -1,6 +1,6 @@
 <img src="https://raw.github.com/esad/blockade/master/inaction.gif">
 
-Blockade is a randomized 2-color [turmite](https://en.wikipedia.org/wiki/Turmite) screensaver for OS X ([try it in your browser](http://esad.github.io/blockade)).
+Blockade is a randomized 2-color [turmite](https://en.wikipedia.org/wiki/Turmite) screensaver for OS X ([download](https://github.com/esad/blockade/releases) or [try it in your browser](https://esad.github.io/blockade)).
 
 It's written in [Elm](http://elm-lang.org) with a small native screensaver wrapper that embeds the Elm app in a webview. The whole drawing is actually done via CSS.
 
